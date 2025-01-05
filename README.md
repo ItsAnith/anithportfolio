@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anithkumar M - Portfolio</title>
+  <link rel="stylesheet" href="anithres1.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Anithkumar M</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Hello, I'm <span>Anithkumar M</span></h1>
+    <p>Front-End Developer | UI Enthusiast</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate front-end developer with a Master’s degree in Information Technology.  
+      Skilled in creating intuitive, user-friendly interfaces using HTML, CSS, JavaScript, and React.js.  
+      My experience includes building responsive web applications, e-commerce websites, and interactive dashboards.  
+    </p>
+    <p>Dedicated to crafting high-quality projects and collaborating in innovative teams.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Fingerprint-Based Attendance System</h3>
+        <p>IoT-based system using Arduino, GSM module, and biometric sensors to record attendance and send SMS notifications.</p>
+      </div>
+      <div class="project-card">
+        <h3>Hand Gesture Recognition System</h3>
+        <p>Machine learning project for gesture recognition using Python, Mediapipe, and CNN to assist deaf and mute individuals.</p>
+      </div>
+      <div class="project-card">
+        <h3>E-Commerce Website</h3>
+        <p>Fully functional e-commerce platform with responsive design, built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Sales Dashboard</h3>
+        <p>Interactive Excel-based dashboard for sales data visualization and analysis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>React.js</span>
+      <span>MongoDB</span>
+      <span>SQL</span>
+      <span>Git & GitHub</span>
+      <span>Photoshop</span>
+      <span>Lightroom Classic</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-email" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:anithkumar.webdev@gmail.com">anithkumar.webdev@gmail.com</a></p>
+      <p>Phone: <a href="tel:+919751653328">+91 9751653328</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/anith-kumar-7b4306320/" target="_blank">linkedin.com/in/anith-kumar</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Anithkumar M. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
